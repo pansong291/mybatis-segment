@@ -1,0 +1,25 @@
+{
+  "pluginName": "Mybatis Segment",
+  "description": "Mybatis code segment generator",
+  "version": "1.0.0",
+  "author": "paso",
+  "main": "dist/index.html",
+  "preload": "",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:10987"
+  },
+  "pluginSetting": {
+    "single": false
+  },
+  "features": [
+    {
+      "code": "mybatis-segment",
+      "explain": "generate mybatis code segment",
+      "icon": "logo.png",
+      "cmds": [
+        "Mybatis Segment"
+      ]
+    }
+  ]
+}
