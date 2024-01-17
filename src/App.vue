@@ -30,7 +30,7 @@
 
   onMounted(setupTheme)
 
-  utools.onPluginEnter?.(setupTheme)
+  window.utools?.onPluginEnter?.(setupTheme)
 </script>
 
 <style lang="scss" scoped></style>
