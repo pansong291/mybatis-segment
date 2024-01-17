@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "naive-ui": "^2.34.2",
+    "naive-ui": "^2.37.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {
@@ -17,6 +17,6 @@
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
     "utools-api-types": "^3.0.0",
-    "vite": "^3.2.4"
+    "vite": "^3.2.7"
   }
 }

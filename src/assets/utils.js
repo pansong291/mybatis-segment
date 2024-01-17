@@ -19,7 +19,21 @@ export function camelToSnake(str) {
 }
 
 export function snakeToCamel(str) {
-  return str.replace(/_(\w)/g, (all, letter) => {
+  return str.toLowerCase().replace(/_(\w)/g, (all, letter) => {
     return letter.toUpperCase()
   })
+}
+
+export function unwrapBackQuote(str) {
+  if (!str) return str
+  if (str.startsWith('`') && str.endsWith('`'))
+    return str.substring(1, str.length - 1)
+  return str
+}
+
+export function removeAliasReference(str) {
+  if (!str) return str
+  const i = str.indexOf('.')
+  if (i >= 0) return str.substring(i + 1, str.length)
+  return str
 }
